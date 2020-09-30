@@ -1,0 +1,55 @@
+/* p{
+    color: blue;
+}
+p.error {
+    color: red;
+}
+p.success.feedback {
+    color: green;
+    border: 5px solid yellow
+}
+. {
+     border-width: 5px;
+    border-style: solid;
+    border-color: yellow; 
+    
+} */
+
+div .error{
+    color: red;
+}
+
+#container1{
+    color: lightslategray;
+}
+
+#container2{
+    color: lightcoral;
+}
+a[href]{
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: yellow;
+}
+a[href="www.google.com"]{
+    background-color: yellowgreen;
+
+}
+a[href*="instagram"]{
+    background-color: violet;
+}
+a[href$=".ac.id"]{background-color: turquoise;}
+
+h1:hover{
+    color:red;
+    background-color: black;
+}
+
+p::selection{
+    background-color: red;
+    color: blue;
+}
+a::before{
+    content: "link-";
+}
