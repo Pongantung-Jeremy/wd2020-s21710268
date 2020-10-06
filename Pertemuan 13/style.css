@@ -1,0 +1,19 @@
+.a{
+    display: block;
+    background-color: lightskyblue;
+    padding: 15px;
+    border: 25px solid red;
+}
+.b{
+    display: block;
+    background-color: lightskyblue;
+    padding: 15px;
+    border: 25px solid red;
+    margin: 0 200px;
+}
+.c{
+    background-color: lightskyblue;
+    padding: 15px;
+    border: 25px solid red;
+    margin: 0 400px;
+}
